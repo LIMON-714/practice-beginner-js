@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(9, 9, 33);
+    box-sizing: border-box;
+    color: #fff;
+    text-transform: capitalize;
+}
+select{
+    margin: 0 1rem 1rem 0;
+
+}
+.container{
+    padding: 1rem;
+
+}
+main{
+    background:darkslategray;
+    font-size: 16px;
+    padding: 1rem;
+    text-align: center;
+}
+.para{
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    color: maroon;
+    font-weight: bold;
+}
+button{
+    border: 1px solid #fff;
+    color: #fff;
+    width: 100px;
+   height: 25px;
+   transition: 0.5s;
+   border-radius: 5px;
+}
+
+button:hover{
+    background: #fff;
+    color: #090921;
+    transition: 0.5s;
+    font-weight: bold;
+}

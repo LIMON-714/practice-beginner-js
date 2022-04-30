@@ -1,0 +1,85 @@
+@import url('http://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:#091921; 
+    color: #fff;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.continer{
+    width: 375px;
+    height: 520px;
+    background:#091930;
+    border-radius:15px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.06);
+    padding:20px;
+   overflow-y: scroll;
+}
+.continer::-webkit-scrollbar{
+    display:none;
+}
+.continer form{
+    width: 100%;
+    border:1px solid orange;
+    background:#fff;
+    color:black;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    border-radius:5px;
+    
+
+}
+.continer form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width:100%;
+    font-size: 16px;
+    font-weight:600;
+    padding:8px 10px;
+    border-radius: 5px;
+
+}
+
+/* products list start here */
+
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* padding: 20px; */
+    padding: 5px;
+}
+.product img{
+    width:90px;
+    height:90px;
+    object-fit: cover;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.product .pro-discription h2{
+         font-size:20px;
+         opacity: 0.8;
+}
+
+.product .pro-discription h3{
+    font-size:18px;
+    opacity: 0.8;
+}
+
+.product .pro-discription p{
+    opacity: 0.8;
+}
